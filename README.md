@@ -1,4 +1,2 @@
-# react-portfolio
-
+#React Portfolio
 this is the read me
-# react-three
