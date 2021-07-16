@@ -20,6 +20,7 @@ const Projects = () => {
                         <a href="https://losiento.herokuapp.com/">
                             <img className="text-base h-60 rounded" src={loSiento} alt="ProjectLoSiento" />
                         </a>
+                        <a href="https://github.com/AbnerTor/LoSiento"><p className="text-base pt-2">Visit the Repo</p></a>
                     </div>
 
                     <div className="grid justify-items-center mx-5 text-3xl" id="projectDoge">
@@ -28,14 +29,15 @@ const Projects = () => {
                             <img className="text-base h-60 rounded" id="projectDoge" src={Doge}
                                 alt="Project-2" />
                         </a>
+                        <a href="https://github.com/AbnerTor/WantADog"><p className="text-base pt-2">Visit the Repo</p></a>
                     </div>
 
                     <div className="grid justify-items-center mx-5 text-3xl" id="budgetTracker">
                             <h1 className="mb-2">Budget Tracker</h1>
                             <a href="https://shrouded-dawn-63553.herokuapp.com/"><img className="text-base h-60 rounded" src={BudgetTracker}
                                 alt="Budget Tracker" />
-
                             </a>
+                            <a href="https://github.com/AbnerTor/week18-PWA"><p className="text-base pt-2">Visit the Repo</p></a>
                     </div>
                 </div>
             </div>
