@@ -22,14 +22,13 @@ const NavBar = () => {
     }
 
     return (
-        <div className="flex flex-col bg-blue-200 h-5/6">
+        <div className="flex flex-col h-5/6">
 
-            <nav className="flex justify-evenly  items-center text-2xl pt-5 pb-10">
+            <nav className="flex justify-evenly items-center text-2xl pt-6 pb-6">
                 <a
-                    className="pt-20"
                     className={page === 'aboutme' ? 'highlight navbar-brand' : 'navbar-brand'}
-                    href="#about"
-                    onClick={() => setPage('about')}
+                    href="about"
+                    onClick={() => setPage('#about')}
                 >
                     About Me
                 </a>
