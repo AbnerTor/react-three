@@ -25,7 +25,7 @@ const NavBar = () => {
 
             <nav className="flex justify-evenly items-center text-2xl pt-6 pb-6">
                 <a
-                    className={page === 'aboutme' ? 'highlight navbar-brand' : 'navbar-brand'}
+                    className={page === 'about' ? 'highlight navbar-brand' : 'navbar-brand'}
                     href="about"
                     onClick={() => setPage('#about')}
                 >
