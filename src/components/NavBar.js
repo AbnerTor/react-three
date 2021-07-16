@@ -7,7 +7,6 @@ import AboutMe from './Aboutme';
 const NavBar = () => {
     const [page, setPage] = useState('');
 
-    // render pages based on what user selected
     const showPage = () => {
         switch (page) {
             case 'about':
