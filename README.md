@@ -1,4 +1,3 @@
 #React Portfolio
 
-This is my portfolio, I worked hard on it I guess.
-Trying to update the git hub page 
+This is my portfolio, I built it using react and tailwind, still has a few things that need to be ironed out but looks good for the most part. 
