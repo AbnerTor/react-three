@@ -7,7 +7,7 @@ import BudgetTracker from '../assets/budgetTrackerss.jpg'
 const Projects = () => {
     return (
 
-        <div className="bg-gray-800 h-auto pb-20 text-white ">
+        <div className="bg-gray-800 h-auto pb-20 text-white font-mono">
             <div className="">
                 <h1 className="text-xl ml-40 mt-20">
                     Here Are some of the Projects that I have worked on. Take a look.

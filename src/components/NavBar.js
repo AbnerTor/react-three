@@ -21,7 +21,7 @@ const NavBar = () => {
     }
 
     return (
-        <div class="flex flex-col w-full h-full">
+        <div class="flex flex-col w-full h-full font-mono">
 
             <nav className="flex justify-evenly items-center text-2xl py-2">
                 <a

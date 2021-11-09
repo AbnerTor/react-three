@@ -43,7 +43,7 @@ const Contact = () => {
     }
 
     return (
-        <div class="w-full  pl-10 py-8 bg-gray-800">
+        <div class="w-full  pl-10 py-8 bg-gray-800 font-mono">
             <div class="flex w-1/4 flex-wrap -mx-3 mb-6">
                 <div class=" md:w-1/2 px-3 mb-6 md:mb-0">
                     <label class="block uppercase tracking-wide text-gray-700 text-s font-bold mb-2" for="grid-first-name">

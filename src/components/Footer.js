@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
 
-        <div className="flex flex-row space-x-5 justify-center items-center h-48 bg-green-200">
+        <div className="flex flex-row space-x-5 justify-center items-center h-48 bg-green-200 font-mono">
 
             <div> <a href="https://www.linkedin.com/in/toribioabner/"> <img className="h-16" src={LinkedIn} alt="LinkedIn-logo" /> </a></div>
 
