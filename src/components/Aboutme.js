@@ -1,15 +1,22 @@
 import React from 'react';
-import Portrait from '../assets/portrait.jpeg'
+import Headshot from '../assets/Headshot.png';
 
 const AboutMe = () => {
 
     return (
-        <div className="bg-gray-800 w-full h-auto pb-20 flex flex-row justify-center pt-10" id="textDiv">
+        <div class="bg-gray-800 pb-20 flex flex-col items-center pt-10" id="textDiv">
 
+            <div class="mt-10 flex justify-center">
+                <img class="rounded-lg h-96" src={Headshot} alt="Das me" />
+            </div>
 
-            <div className="w-1/3">
+            <div>
+                <h1 class="text-white">No great thing is created suddenly...</h1>
+            </div>
 
-                <p className="flex ml-20 my-10 pb-15 w-full text-white">Hello there, name is Abner Toribio-Vazquez, I’m an aspiring web developer. I have an AS
+            <div class="w-1/2 flex flex-col">
+
+                <p className="flex my-10 pb-15 w-full text-white">Hello, my name is Abner Toribio-Vazquez, I’m an aspiring web developer. I have an AS
                     Degree in Business Administration with a background in sales. I did sales among many other
                     things for
                     a few years, but I felt disconnected from my work, I didn't feel like I was working towards
@@ -34,9 +41,7 @@ const AboutMe = () => {
                 </ul>
             </div>
 
-            <div className="w-1/3 ml-40 mt-10">
-                <img className="h-96 rounded-lg br-solid shadow-xl" src={Portrait} alt="Das me" />
-            </div>
+
 
         </div>
 

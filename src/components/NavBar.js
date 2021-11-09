@@ -21,29 +21,29 @@ const NavBar = () => {
     }
 
     return (
-        <div className="flex flex-col h-5/6">
+        <div class="flex flex-col w-full h-full">
 
-            <nav className="flex justify-evenly items-center text-2xl pt-6 pb-6">
+            <nav className="flex justify-evenly items-center text-2xl py-2">
                 <a
-                    className={page === 'about' ? 'highlight navbar-brand' : 'navbar-brand'}
+                    class={page === 'about' ? 'highlight navbar-brand' : 'navbar-brand'}
                     href="about"
                     onClick={() => setPage('#about')}
                 >
                     About Me
                 </a>
                 <a
-                    className={page === 'projects' ? 'highlight navbar-brand' : 'navbar-brand'} href="#projects"
+                    class={page === 'projects' ? 'highlight navbar-brand' : 'navbar-brand'} href="#projects"
                     onClick={() => setPage('projects')}
                 >
                     Projects
                 </a>
                 <a
-                    className={page === 'contact' ? 'highlight navbar-brand' : 'navbar-brand'} href="#contact"
+                    class={page === 'contact' ? 'highlight navbar-brand' : 'navbar-brand'} href="#contact hover:bg-gray-200"
                     onClick={() => setPage('contact')}
                 >
                     Contact
                 </a>
-                <a className="navbar-brand" href="https://docs.google.com/document/d/1aIkqsrkrvlayxWPtyyC1XbQhXykzZGZGlY9ltnmueV4/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                <a class="navbar-brand" href="https://docs.google.com/document/d/1aIkqsrkrvlayxWPtyyC1XbQhXykzZGZGlY9ltnmueV4/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
             </nav>
 
             {showPage()}
